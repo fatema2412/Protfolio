@@ -6,6 +6,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const closeIcon=`${import.meta.env.BASE_URL}/assets/nav/closeIcon.png`
 const menuIcon=`${import.meta.env.BASE_URL}/assets/nav/menuIcon.png`
 const heroImage = `${import.meta.env.BASE_URL}/assets/home/heroImage.png`
+const resumePdf = "/Protfolio/FatemaMenjarwala-FrontendDeveloper(React)-Ln4O.pdf";
+
 // import heroImage from "../assets/home/heroImage.png";
 
 
@@ -57,7 +59,7 @@ export default function Navbar() {
 
       </ul>
       <div className="nav-connect">
-  <a href="/FatemaMenjarwala-FrontendDeveloper(React).pdf" download="Fatema_Menjarwala_Resume.pdf">
+  <a href={resumePdf} download="Fatema_Menjarwala_Resume.pdf">
  Resume  </a>
   </div>
   </div>

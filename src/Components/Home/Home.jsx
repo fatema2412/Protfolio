@@ -1,6 +1,11 @@
 import React from 'react'
 import './Home.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+const resumePdf = "/Protfolio/FatemaMenjarwala-FrontendDeveloper(React)-Ln4O.pdf";
+
+
+
+
 
 
 const aboutImage=`${import.meta.env.BASE_URL}/assets/home/aboutImage.png`;
@@ -12,7 +17,7 @@ export default function Home() {
       <p>I have completed my Frontend Development Course from Masai School, Bangalore</p>
       <div className='home-action'>
       <div className="hero-resume">
-  <a  style={{textDecoration:"none"}}href="/FatemaMenjarwala-FrontendDeveloper(React).pdf" download="Fatema_Menjarwala_Resume.pdf">
+  <a  style={{textDecoration:"none"}}href={resumePdf} download="Fatema_Menjarwala_Resume.pdf">
  Resume  </a>
  </div>
 
