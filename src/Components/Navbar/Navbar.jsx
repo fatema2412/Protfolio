@@ -18,7 +18,7 @@ export default function Navbar() {
   }
   return (
     <div className='navbar'>
-      <img src={heroImage} alt='logo'/>
+      <img src={`${import.meta.env.BASE_URL}heroImage`} alt='logo'/>
       <img src={menuIcon} onClick={openMenu} alt='menuIcone' className='nav-mob-open'/>
       <ul ref={menuRef}  className="nav-menu">
         <img src={closeIcon} onClick={closeMenu} alt="closeIcon" className="nav-mob-close" style={{backgroundColor:"blue"}} />
