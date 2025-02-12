@@ -3,9 +3,9 @@ import './Navbar.css'
 import { getImageUrl } from "../../utils";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
- const heroImage ="/assets/home/heroImage.png"
 const closeIcon="/assets/nav/closeIcon.png"
 const menuIcon="/assets/nav/menuIcon.png"
+const heroImage = `${import.meta.env.BASE_URL}assets/home/heroImage.png`
 
 export default function Navbar() {
   const [menu,setMenu]=useState("home")
@@ -18,7 +18,7 @@ export default function Navbar() {
   }
   return (
     <div className='navbar'>
-      <img src={`${import.meta.env.BASE_URL}heroImage`} alt='logo'/>
+      <img src={heroImage} alt='logo'/>
       <img src={menuIcon} onClick={openMenu} alt='menuIcone' className='nav-mob-open'/>
       <ul ref={menuRef}  className="nav-menu">
         <img src={closeIcon} onClick={closeMenu} alt="closeIcon" className="nav-mob-close" style={{backgroundColor:"blue"}} />
