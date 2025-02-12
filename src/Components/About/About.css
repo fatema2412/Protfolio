@@ -1,0 +1,86 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; /* Adjusted for better spacing */
+    padding: 80px 20px; /* Added padding */
+    /* background-color: #badafa; Light background for contrast */
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-title h1 {
+    font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  color: #0056b3;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; /* More balanced spacing */
+    max-width: 1000px;
+    flex-wrap: wrap; /* Makes it responsive */
+}
+
+.about-left img {
+    width: 280px; /* Adjust image size */
+    height: auto;
+    border-radius: 20px; /* Smooth rounded edges */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 600px; /* Keeps text area neat */
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    /* color: #333; Darker text for readability */
+    line-height: 1.6;
+}
+
+.about-para p {
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about{
+        gap: 80px;
+        /* margin: 0px 70px; */
+        /* align-items: start; */
+    }
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-left img {
+        width: 70%;
+    }
+
+    .about-title h1 {
+        font-size: 32px;
+    }
+
+    .about-para {
+        font-size: 18px;
+    }
+}
