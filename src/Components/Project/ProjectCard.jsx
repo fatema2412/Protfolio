@@ -7,13 +7,15 @@ export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) =>
     {
-        console.log("Image Source from JSON:", imageSrc);
+      const fullImageSrc = `${import.meta.env.BASE_URL}${imageSrc}`;
+
+        console.log("Image Source from JSON:", fullImageSrc);
   return ( 
 
     <div className={styles.container}>
 
       <img
-        src={`${import.meta.env.BASE_URL}${imageSrc}`}
+        src={fullImageSrc}
         alt={`Image of ${title}`}
         className={styles.image}
       />
