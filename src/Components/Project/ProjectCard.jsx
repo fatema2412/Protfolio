@@ -13,7 +13,7 @@ export const ProjectCard = ({
     <div className={styles.container}>
 
       <img
-        src={`${import.meta.env.BASE_URL}$imageSrc}`}
+        src={`${import.meta.env.BASE_URL}${imageSrc}`}
         alt={`Image of ${title}`}
         className={styles.image}
       />
