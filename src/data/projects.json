@@ -11,7 +11,7 @@
     },
     {
       "title": "Quality Cart",
-      "imageSrc": "/assets/projects/qualityCart.png",
+      "imageSrc": "assets/projects/qualityCart.png",
       "description": "QualityCart is a web application inspired by Costco. Implemented a dynamic service listing where selecting an item updates the description panel on the right side. Additionally, integrated stock management functionality to disable the delivery button when an item is out of stock, enhancing user experience and interactivity.",
       "skills": ["HtML", "CSS", "Javascript", "Glitch"],
       "demo": "https://fatema2412.github.io/QualityCart-/",

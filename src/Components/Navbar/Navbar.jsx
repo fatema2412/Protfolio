@@ -3,10 +3,10 @@ import './Navbar.css'
 import { getImageUrl } from "../../utils";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-const closeIcon="/assets/nav/closeIcon.png"
-const menuIcon="/assets/nav/menuIcon.png"
-// const heroImage = `${import.meta.env.BASE_URL}assets/home/heroImage.png`
-import heroImage from "../assets/home/heroImage.png";
+const closeIcon=`${import.meta.env.BASE_URL}/assets/nav/closeIcon.png`
+const menuIcon=`${import.meta.env.BASE_URL}/assets/nav/menuIcon.png`
+const heroImage = `${import.meta.env.BASE_URL}/assets/home/heroImage.png`
+// import heroImage from "../assets/home/heroImage.png";
 
 
 export default function Navbar() {

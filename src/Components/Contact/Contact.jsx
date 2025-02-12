@@ -3,9 +3,9 @@ import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 // import blueClone from "../../assets/projects/blueClone.png";
 
-const emailIcon = "/assets/contact/emailIcon.png";
-const githubIcon ="/assets/contact/githubIcon.png"
-const linkedinIcon="/assets/contact/linkedinIcon.png"
+const emailIcon = `${import.meta.env.BASE_URL}/assets/contact/emailIcon.png`;
+const githubIcon =`${import.meta.env.BASE_URL}/assets/contact/githubIcon.png`
+const linkedinIcon=`${import.meta.env.BASE_URL}/assets/contact/linkedinIcon.png`
 
 
 

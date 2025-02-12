@@ -5,10 +5,10 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 
-const css="/assets/skills/css.png"
-const html="/assets/skills/html.png"
-const javascript="/assets/skills/javascript.png"
-const react ="/assets/skills/react.png"
+const css=`${import.meta.env.BASE_URL}/assets/skills/css.png`
+const html=`${import.meta.env.BASE_URL}/assets/skills/html.png`
+const javascript=`${import.meta.env.BASE_URL}/assets/skills/javascript.png`
+const react =`${import.meta.env.BASE_URL}/assets/skills/react.png`
 export default function Skills() {
     const responsive = {
         superLargeDesktop: {

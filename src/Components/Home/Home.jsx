@@ -3,7 +3,7 @@ import './Home.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
-const aboutImage="/assets/home/aboutImage.png";
+const aboutImage=`${import.meta.env.BASE_URL}/assets/home/aboutImage.png`;
 export default function Home() {
   return (
     <div id ="home"className='Home'>
