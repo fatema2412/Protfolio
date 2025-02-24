@@ -8,11 +8,13 @@ const resumePdf = "/Protfolio/FatemaMenjarwala-FrontendDeveloper(React)-Ln4O.pdf
 
 
 
-const aboutImage=`${import.meta.env.BASE_URL}/assets/home/aboutImage.png`;
+// const aboutImage=`${import.meta.env.BASE_URL}/assets/home/aboutImage.png`;
+const aboutImage = `${import.meta.env.BASE_URL}/assets/home/frontend-developer.png`;
+
 export default function Home() {
   return (
     <div id ="home"className='Home'>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8RbrPwU5HxqkakRGDM-d30_VUH-fKLyJMUQ&s" alt='Profile Img'/>
+      <img src={aboutImage} alt='Profile Img'/>
       <h1><span>I'm Fatema Menjarwala </span>, Frontend Developer  </h1>
       <p>I have completed my Frontend Development Course from Masai School, Bangalore</p>
       <div className='home-action'>

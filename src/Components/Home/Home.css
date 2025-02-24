@@ -6,7 +6,8 @@
 }
 .Home img {
     margin-top: 50px;
-
+    height: 600px;
+    width: 50%;
 }
 .Home h1 {
     text-align: center;
