@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <div className='navbar'>
       <img src={heroImage} alt='logo'/>
-      <img src={menuIcon} onClick={openMenu} alt='menuIcone' className='nav-mob-open'/>
+      <img src="https://img.icons8.com/?size=48&id=6uJdcB0tVRwZ&format=gif" onClick={openMenu} alt='menuIcone' className='nav-mob-open'/>
       <ul ref={menuRef}  className="nav-menu">
         <img src={closeIcon} onClick={closeMenu} alt="closeIcon" className="nav-mob-close" style={{backgroundColor:"blue"}} />
         <li><AnchorLink className='anchor-link'  href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu=="home"? <img src="https://www.protaxaccounting.co.uk/wp-content/uploads/2015/03/Underline-5-Blue.png" style={{
