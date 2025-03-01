@@ -9,6 +9,7 @@ const heroImage = `${import.meta.env.BASE_URL}/assets/home/heroImage.png`
 const resumePdf = "/Protfolio/FatemaMenjarwala-FrontendDeveloper(React)-Ln4O.pdf";
 
 // import heroImage from "../assets/home/heroImage.png";
+// import
 
 
 export default function Navbar() {
