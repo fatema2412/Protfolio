@@ -35,7 +35,7 @@
 .about-left img {
     width: 280px; /* Adjust image size */
     height: 280px;
-    border-radius: 100%; /* Smooth rounded edges */
+    border-radius: 50%; 
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
 }
 

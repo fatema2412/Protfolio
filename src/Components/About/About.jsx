@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-const aboutImage = `${import.meta.env.BASE_URL}/assets/about/MyImg.png`;
+const aboutImage = `${import.meta.env.BASE_URL}/assets/about/MyPic.jpg`;
+console.log(aboutImage)
 
 export default function About() {
   return (
