@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-const resumePdf = "/Protfolio/FatemaMenjarwala-FrontendDeveloper(React)-Ln4O.pdf";
+const resumePdf = "/FatemaMenjarwala-FrontendDeveloper(React)-Ln4O.pdf";
 
 
 
