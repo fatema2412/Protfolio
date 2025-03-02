@@ -60,7 +60,9 @@ export default function Navbar() {
 
       </ul>
       <div className="nav-connect">
-  <a href={resumePdf} download="Fatema_Menjarwala_Resume.pdf">
+  <a href="https://drive.google.com/file/d/1GPrhwNFOpkRr_1a4zn51w5y72sYhomsS/view?usp=sharing" download="Fatema_Menjarwala_Resume.pdf"
+    target="_blank" 
+    rel="noopener noreferrer" >
  Resume  </a>
   </div>
   </div>

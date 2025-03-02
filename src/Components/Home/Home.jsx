@@ -21,7 +21,9 @@ export default function Home() {
       <p>I have completed my Frontend Development Course from Masai School, Bangalore</p>
       <div className='home-action'>
       <div className="hero-resume">
-  <a  style={{textDecoration:"none"}}href={resumePdf} download="Fatema_Menjarwala_Resume.pdf">
+  <a  style={{textDecoration:"none"}}href="https://drive.google.com/file/d/1GPrhwNFOpkRr_1a4zn51w5y72sYhomsS/view?usp=sharing" 
+  download="Fatema_Menjarwala_Resume.pdf"   target="_blank" 
+  rel="noopener noreferrer" >
  Resume  </a>
  </div>
 
