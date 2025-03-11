@@ -16,6 +16,16 @@
       "skills": ["HtML", "CSS", "Javascript", "Glitch"],
       "demo": "https://fatema2412.github.io/QualityCart-/",
       "source": "https://github.com/fatema2412/QualityCart-"
+    },
+    {
+      "title": "Collaborative Story",
+      "imageSrc": "/assets/projects/StoryProjectSS.JPG",
+      "description": "Collaborative Story is an interactive platform where users can create, contribute to, and explore stories, with creators having the ability to delete their own stories.",
+      "skills": ["React", "ChakraUI", "Firebase", "Redux"],
+      "demo": "https://story-creation-6aff7.web.app/Books",
+      "source": "https://github.com/fatema2412/Collaborative-Story-Creator"
+
+
     }
 ]
   
